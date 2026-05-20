@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400..900;1,400..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Hanken Grotesk", "Inter", system-ui, sans-serif;
+  --font-serif: "Bodoni Moda", Georgia, serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-primary: #4e0816; /* Deep Burgundy for the African luxury touch */
+  --color-primary-light: #9c273e;
+  --color-primary-soft: #fcf1f3;
+  --color-accent-gold: #c5a46e;
+  --color-dark-charcoal: #1c1b1b;
+  --color-soft-clay: #615e57;
+  --color-offwhite-bg: #fcf9f8;
+  --color-surface-card: #ffffff;
+  --color-success: #14503a;
+  --color-success-light: #e8f5e9;
+  
+  --radius-custom: 12px;
+}
+
+/* Smooth custom scrollbars for high-fidelity interactive containers */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dac0c1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9c273e;
+}
+
+/* Custom interactive classes */
+.editorial-shadow {
+  box-shadow: 0 4px 20px rgba(78, 8, 22, 0.05);
+}
+
+.glow-selected {
+  box-shadow: 0 0 12px rgba(78, 8, 22, 0.15);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Zend Fashion",
+  "description": "Zend is a premium, mobile-first fashion resale marketplace designed for Gen Z and young professionals in Nigeria. Explore pre-owned luxury, bargain with interactive offer cards, view verified seller profiles, and track earnings with a virtual wallet.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
