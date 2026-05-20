@@ -430,7 +430,7 @@ export default function App() {
             <a className="font-sans text-xs font-bold uppercase tracking-wider text-soft-clay hover:text-primary transition-colors duration-200" href="#payouts">Secure Payouts</a>
             <a className="font-sans text-xs font-bold uppercase tracking-wider text-soft-clay hover:text-primary transition-colors duration-200" href="#waitlist">Waitlist</a>
           </div>
-          <a href="#waitlist" className="bg-primary text-white border-2 border-primary hover:bg-neutral-900 hover:border-neutral-900 px-6 py-2.5 rounded-full font-sans text-xs font-bold cursor-pointer transition-all duration-200 shadow-sm active:scale-95 leading-none">
+          <a href="#waitlist" className="bg-primary text-white border-2 border-primary hover:bg-neutral-900 hover:border-neutral-900 px-6 py-2.5 rounded-full font-sans text-sm font-bold cursor-pointer transition-all duration-200 shadow-sm active:scale-95 leading-none">
             Join Waitlist
           </a>
         </nav>
@@ -449,17 +449,18 @@ export default function App() {
                 <Sparkles size={11} className="fill-primary" /> Curating Nigerian Streetwear Luxury
               </div>
               <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-primary font-extrabold leading-[1.08] tracking-tight">
-                The New Standard of <span className="italic font-normal">Pre-Owned</span> Luxury.
+                The Marketplace for <span className="italic font-normal">Second-Hand </span> Luxury Fashion.
               </h1>
-              <p className="font-sans text-zinc-600 text-sm md:text-base font-light leading-relaxed max-w-lg">
-                Nigeria's premier resale destination for authenticated Gen-Z streetwear and luxury garments. We bridge the gap between heritage design house archives and modern circular fashion.
+              <p className="font-sans text-zinc-600 font-light leading-relaxed max-w-lg">
+                Buy and sell authentic pre-owned fashion with the freedom to negotiate prices directly. Zend makes luxury fashion more accessible, trusted, and community-driven.
               </p>
+
               
               <div className="flex flex-wrap gap-4 pt-2">
-                <a href="#waitlist" className="bg-primary hover:bg-neutral-950 text-white px-8 py-4 rounded-xl font-sans text-xs font-bold transition-all transform hover:-translate-y-0.5 active:translate-y-0">
+                <a href="#waitlist" className="bg-primary hover:bg-neutral-950 text-white px-8 py-4 rounded-xl font-sans text-sm font-bold transition-all transform hover:-translate-y-0.5 active:translate-y-0">
                   Join 2,500+ waitlisted
                 </a>
-                <a href="#philosophy" className="border border-zinc-200 hover:bg-zinc-50 text-soft-clay hover:text-dark-charcoal px-8 py-4 rounded-xl font-sans text-xs font-bold transition-all">
+                <a href="#philosophy" className="border border-zinc-200 hover:bg-zinc-50 text-soft-clay hover:text-dark-charcoal px-8 py-4 rounded-xl font-sans text-sm font-bold transition-all">
                   Read Philosophy
                 </a>
               </div>
@@ -479,9 +480,10 @@ export default function App() {
                     🌸
                   </div>
                   <h4 className="font-serif font-bold text-sm text-dark-charcoal">Curated Selection</h4>
-                  <p className="font-sans text-[11px] text-zinc-500 leading-relaxed font-light">
-                    Every garment is hand-screened by our catalog selectors to ensure premium vintage representation.
-                  </p>
+                <p className="font-sans text-zinc-500 leading-relaxed font-light">
+                  Every garment is hand-screened by our catalog selectors to ensure premium vintage representation.
+                </p>
+
                 </div>
 
                 <div id="pillar-verified" className="bg-white p-5 rounded-xl border border-zinc-100 shadow-xs space-y-3">
@@ -489,9 +491,10 @@ export default function App() {
                     🛡️
                   </div>
                   <h4 className="font-serif font-bold text-sm text-dark-charcoal">Verified Authenticity</h4>
-                  <p className="font-sans text-[11px] text-zinc-500 leading-relaxed font-light">
+                  <p className="font-sans text-zinc-500 leading-relaxed font-light">
                     Physical sorting locks. No post-purchase query, fully backed by double escrow payouts.
                   </p>
+
                 </div>
 
                 <div id="pillar-community" className="bg-white p-5 rounded-xl border border-zinc-100 shadow-xs space-y-3">
@@ -499,9 +502,10 @@ export default function App() {
                     🌍
                   </div>
                   <h4 className="font-serif font-bold text-sm text-dark-charcoal">Community Driven</h4>
-                  <p className="font-sans text-[11px] text-zinc-500 leading-relaxed font-light">
+                  <p className="font-sans text-zinc-500 leading-relaxed font-light">
                     Made of creators and fashion advocates across Lekki, Ikeja, Abuja, and Port Harcourt.
                   </p>
+
                 </div>
               </div>
             </div>
@@ -519,7 +523,7 @@ export default function App() {
                 <div className="flex bg-zinc-100 p-1 rounded-xl self-start md:self-end border border-zinc-200 shadow-inner">
                   <button
                     onClick={() => setUserPersona('buyer')}
-                    className={`flex items-center gap-1.5 px-4 py-2.5 rounded-lg text-[11px] font-bold transition-all ${
+                    className={`flex items-center gap-1.5 px-4 py-2.5 rounded-lg text-[16px] font-bold transition-all ${
                       userPersona === 'buyer'
                         ? 'bg-white text-primary shadow-sm'
                         : 'text-zinc-500 hover:text-zinc-900'
@@ -529,7 +533,7 @@ export default function App() {
                   </button>
                   <button
                     onClick={() => setUserPersona('seller')}
-                    className={`flex items-center gap-1.5 px-4 py-2.5 rounded-lg text-[11px] font-bold transition-all ${
+                    className={`flex items-center gap-1.5 px-4 py-2.5 rounded-lg text-[16px] font-bold transition-all ${
                       userPersona === 'seller'
                         ? 'bg-[#9c273e] text-white shadow-sm'
                         : 'text-zinc-500 hover:text-zinc-900'
@@ -550,10 +554,11 @@ export default function App() {
                         🔍
                       </div>
                       <div className="space-y-1.5 text-left">
-                        <h4 className="font-serif font-bold text-sm text-dark-charcoal">Discover items you love</h4>
-                        <p className="font-sans text-[11px] text-zinc-500 leading-relaxed font-light">
+                        <h4 className="font-serif font-bold text-base text-dark-charcoal">Discover items you love</h4>
+                        <p className="font-sans text-zinc-500 leading-relaxed font-light">
                           Browse thousands of second-hand fashion items — filtered by category, brand, size, condition, and price range. Find the exact thing you've been looking for.
                         </p>
+
                       </div>
                     </div>
 
@@ -563,10 +568,11 @@ export default function App() {
                         💬
                       </div>
                       <div className="space-y-1.5 text-left">
-                        <h4 className="font-serif font-bold text-sm text-dark-charcoal">Make your offer</h4>
-                        <p className="font-sans text-[11px] text-zinc-500 leading-relaxed font-light">
+                        <h4 className="font-serif font-bold text-base text-dark-charcoal">Make your offer</h4>
+                        <p className="font-sans text-zinc-500 leading-relaxed font-light">
                           See a price you like — but want it lower? Tap <b>"Make Offer"</b> and name your price. No awkward DMs. No guesswork. Just a clear, direct offer.
                         </p>
+
                       </div>
                     </div>
 
@@ -576,10 +582,11 @@ export default function App() {
                         🤝
                       </div>
                       <div className="space-y-1.5 text-left">
-                        <h4 className="font-serif font-bold text-sm text-dark-charcoal">Negotiate in real time</h4>
-                        <p className="font-sans text-[11px] text-zinc-500 leading-relaxed font-light">
+                        <h4 className="font-serif font-bold text-base text-dark-charcoal">Negotiate in real time</h4>
+                        <p className="font-sans text-zinc-500 leading-relaxed font-light">
                           The seller accepts, declines, or counters. You respond. Back and forth until you both agree — or move on. Clean, fast, no pressure.
                         </p>
+
                       </div>
                     </div>
 
@@ -589,10 +596,11 @@ export default function App() {
                         ✅
                       </div>
                       <div className="space-y-1.5 text-left">
-                        <h4 className="font-serif font-bold text-sm text-dark-charcoal">Buy with confidence</h4>
-                        <p className="font-sans text-[11px] text-zinc-500 leading-relaxed font-light">
+                        <h4 className="font-serif font-bold text-base text-dark-charcoal">Buy with confidence</h4>
+                        <p className="font-sans text-zinc-500 leading-relaxed font-light">
                           Pay securely through Zend. Your money is protected until you confirm you received exactly what was listed. Then rate your seller.
                         </p>
+
                       </div>
                     </div>
                   </div>
@@ -604,10 +612,11 @@ export default function App() {
                         🤝
                       </div>
                       <div className="space-y-1.5 text-left">
-                        <h4 className="font-serif font-bold text-sm text-dark-charcoal">Negotiate directly in-app</h4>
-                        <p className="font-sans text-[11px] text-zinc-500 leading-relaxed font-light">
+                        <h4 className="font-serif font-bold text-base text-dark-charcoal">Negotiate directly in-app</h4>
+                        <p className="font-sans text-zinc-500 leading-relaxed font-light">
                           Make offers, counter-offers, and close deals inside Zend. Every price is a conversation — not a take-it-or-leave-it ultimatum.
                         </p>
+
                       </div>
                     </div>
 
@@ -620,10 +629,11 @@ export default function App() {
                         ✨
                       </div>
                       <div className="space-y-1.5 text-left">
-                        <h4 className="font-serif font-bold text-sm text-dark-charcoal">AI transforms your photos</h4>
-                        <p className="font-sans text-[11px] text-zinc-500 leading-relaxed font-light">
+                        <h4 className="font-serif font-bold text-base text-dark-charcoal">AI transforms your photos</h4>
+                        <p className="font-sans text-zinc-500 leading-relaxed font-light">
                           Upload any photo. AI removes the background, fixes the lighting, and makes your second-hand item look like a studio shot instantly.
                         </p>
+
                       </div>
                     </div>
 
@@ -636,10 +646,11 @@ export default function App() {
                         🤖
                       </div>
                       <div className="space-y-1.5 text-left">
-                        <h4 className="font-serif font-bold text-sm text-dark-charcoal">AI responds to buyers for you</h4>
-                        <p className="font-sans text-[11px] text-zinc-500 leading-relaxed font-light">
+                        <h4 className="font-serif font-bold text-base text-dark-charcoal">AI responds to buyers for you</h4>
+                        <p className="font-sans text-zinc-500 leading-relaxed font-light">
                           Your AI agent handles inquiries, suggests counteroffers, and follows up on interested buyers while you sleep automatically.
                         </p>
+
                       </div>
                     </div>
                   </div>
@@ -651,9 +662,10 @@ export default function App() {
             <div className="bg-zinc-100 p-8 rounded-2xl relative overflow-hidden" id="waitlist">
               <div className="relative z-10 max-w-lg space-y-4">
                 <h3 className="font-serif text-2xl text-primary font-bold">Be the First to Know</h3>
-                <p className="font-sans text-xs text-soft-clay leading-relaxed">
+                <p className="font-sans text-soft-clay leading-relaxed">
                   We are launching soon to a limited community of collectors. Join our VIP list for exclusive early access to the premium collection drop.
                 </p>
+
 
                 {waitlistSubmitted ? (
                   <div className="bg-emerald-50 border border-emerald-100 p-4 rounded-xl text-emerald-800 text-xs flex items-center gap-2 animate-fadeIn font-semibold">
@@ -678,7 +690,9 @@ export default function App() {
                     </button>
                   </form>
                 )}
-                <p className="text-[10px] text-zinc-400">Join {waitlistCount} luxury fashion enthusiasts already waitlisted.</p>
+            <p className="text-zinc-400">Join {waitlistCount} luxury fashion enthusiasts already waitlisted.</p>
+
+
               </div>
             </div>
 
@@ -843,9 +857,10 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="space-y-2">
             <h3 className="font-serif text-2xl font-black text-primary tracking-wider">Zend</h3>
-            <p className="font-sans text-xs text-soft-clay max-w-xs leading-relaxed">
+            <p className="font-sans text-soft-clay max-w-xs leading-relaxed">
               Redefining luxury fashion through conscious circulation. Hand-curated in Lagos, serving sustainable style nationwide.
             </p>
+
           </div>
           <div className="flex flex-wrap justify-center gap-6 text-xs text-soft-clay font-bold uppercase tracking-wider">
             <a className="hover:text-primary transition-colors underline underline-offset-4" href="#">Terms of Service</a>
@@ -853,9 +868,10 @@ export default function App() {
             <a className="hover:text-primary transition-colors underline underline-offset-4" href="#">Zend Guard Escrow</a>
             <a className="hover:text-primary transition-colors underline underline-offset-4" href="#">Contact Lagos Hub</a>
           </div>
-          <p className="text-xs text-soft-clay">
+          <p className="text-soft-clay">
             © 2026 Zend Marketplace. Beautifully archived in Nigeria.
           </p>
+
         </div>
       </footer>
 

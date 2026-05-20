@@ -47,3 +47,10 @@
 .glow-selected {
   box-shadow: 0 0 12px rgba(78, 8, 22, 0.15);
 }
+
+@layer base {
+  p {
+    @apply text-base;
+  }
+}
+
