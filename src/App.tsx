@@ -479,7 +479,7 @@ export default function App() {
                   <div className="w-10 h-10 rounded-full bg-primary-soft flex items-center justify-center text-primary">
                     🌸
                   </div>
-                  <h4 className="font-serif font-bold text-sm text-dark-charcoal">Curated Selection</h4>
+                  <h4 className="font-serif font-bold text-base text-dark-charcoal">Curated Selection</h4>
                 <p className="font-sans text-zinc-500 leading-relaxed font-light">
                   Every garment is hand-screened by our catalog selectors to ensure premium vintage representation.
                 </p>
@@ -490,7 +490,7 @@ export default function App() {
                   <div className="w-10 h-10 rounded-full bg-primary-soft flex items-center justify-center text-primary">
                     🛡️
                   </div>
-                  <h4 className="font-serif font-bold text-sm text-dark-charcoal">Verified Authenticity</h4>
+                  <h4 className="font-serif font-bold text-base text-dark-charcoal">Verified Authenticity</h4>
                   <p className="font-sans text-zinc-500 leading-relaxed font-light">
                     Physical sorting locks. No post-purchase query, fully backed by double escrow payouts.
                   </p>
@@ -501,7 +501,7 @@ export default function App() {
                   <div className="w-10 h-10 rounded-full bg-primary-soft flex items-center justify-center text-primary">
                     🌍
                   </div>
-                  <h4 className="font-serif font-bold text-sm text-dark-charcoal">Community Driven</h4>
+                  <h4 className="font-serif font-bold text-base text-dark-charcoal">Community Driven</h4>
                   <p className="font-sans text-zinc-500 leading-relaxed font-light">
                     Made of creators and fashion advocates across Lekki, Ikeja, Abuja, and Port Harcourt.
                   </p>
