@@ -446,7 +446,7 @@ export default function App() {
             {/* Hero details */}
             <div className="space-y-6">
               <div className="inline-flex items-center gap-2 bg-primary-soft text-primary font-sans text-[11px] font-bold px-3.5 py-1.5 rounded-full uppercase tracking-wider">
-                <Sparkles size={11} className="fill-primary" /> Curating Nigerian Streetwear Luxury
+                <Sparkles size={11} className="fill-primary" /> Your Designer Pieces Still Have Value. Cash Out With Zend.
               </div>
               <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-primary font-extrabold leading-[1.08] tracking-tight">
                 The Marketplace for <span className="italic font-normal">Second-Hand </span> Luxury Fashion.
